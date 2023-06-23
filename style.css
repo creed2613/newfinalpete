@@ -3,7 +3,7 @@
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 60px; background-color: #eae2b7;}
+  padding: 100px; background-color: #eae2b7;}
 /* Set the font family for any h1, h2, or h3 heading */
 h1{font-family: "Playfair Display", Times, serif;text-align: center;}
 h2{font-family: "Playfair Display", Times, serif;text-align: center;}
@@ -11,20 +11,23 @@ h3 {
   font-family: "Playfair Display", Times, serif;text-align: center;
 }
 article h3{text-align:center;}
-article img{border-radius: 8px;}
 article {
   padding: 10px
 }
 
-article div {
+#portfolio1 div {
   text-align: center;
   width: 100%;
 }
 
 p { text-align: center; 
   line-height: 1.5;
-margin: 15%;
-  }
+padding-right: 10px;
+  padding-left: 10px;
+   margin: 15%;
+ margin-top: 3px;
+   margin-bottom: 3px;
+  } 
 
 /* The div container constrains the content width within the main container to 600px */
 div{
@@ -32,11 +35,12 @@ div{
    }
 img {
   width: 200%;
-  max-width: 400px;
+  max-width: 200px;
   height: auto;
 }
 hr {
   border: 1px solid black;
+width: 65%;
 }
 /* Add your solution below */
 .image-circle {border-radius: 50%;}
@@ -44,3 +48,14 @@ header{text-align: center;}
 span img{border: 2px solid #003049;}
 a:link {color: #d62828;}
 a:hover {color: #f77f00;}
+
+            ul {
+            list-style-position:inside;
+           margin-left: 25%;
+            }
+        ol {
+         list-style-position: inside;
+         margin-left: 28%;
+       }
+#image1{text-align: center;}
+#Background p {text-align: left;}
