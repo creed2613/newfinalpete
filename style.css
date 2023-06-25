@@ -46,9 +46,8 @@ width: 65%;
 .image-circle {border-radius: 50%;}
 header{text-align: center;}
 span img{border: 2px solid #003049;}
-a:link {color: #d62828;}
+a,href:link {color: #d62828;}
 a:hover {color: #f77f00;}
-
             ul {
             list-style-position:inside;
            margin-left: 25%;
